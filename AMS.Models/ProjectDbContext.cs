@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AMS.Models
 {
-    class ProjectDbContext:DbContext
+   public class ProjectDbContext:DbContext
     {
         public DbSet<Animal> Animals { get; set; }
     }
